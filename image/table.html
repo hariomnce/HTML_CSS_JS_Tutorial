@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="./table.css">
+
 </head>
 <body>
     
@@ -11,17 +15,57 @@
         
         <table>
             <thead>
-            <caption>Student Data</caption>
+            <caption>Employee Data</caption>
             <tr>
                 <th>Name</th>
-                <th>Roll No.</th>
+                <th scope="col">Emp No.</th>
+                <th>Email Id</th>
+                <th>Designation</th>
+                <th>Mob No.</th>
+                <th>DOB</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <td>Hariom Sharma</td>
+                <th scope="row">Hariom Sharma</td>
                 <td>1112</td>
+                <td>hariomkumar@ahom.tech</td>
+                <td>Java Developer</td>
+                <td>8874985214</td>
+                <td>20-09-1999</td>
+            </tr>
+            <tr>
+                <th scope="row">Ankit Kumar</th>
+                <td>1113</td>
+                <td>ankitkumar@ahom.tech</td>
+                <td>Java Developer</td>
+                <td>7458963625</td>
+                <td>15-06-1998</td>
+            </tr>
+            <tr>
+                <th scope="row">Sumit Raj</th>
+                <td>1114</td>
+                <td>sumitraj@ahom.tech</td>
+                <td>Java Developer</td>
+                <td>8525479874</td>
+                <td>26-02-2000</td>
+            </tr>
+            <tr>
+                <th scope="row">Ranjan</th>
+                <td>1115</td>
+                <td>ranjan@ahom.tech</td>
+                <td>React Developer</td>
+                <td>9987452514</td>
+                <td>10-03-1999</td>
+            </tr>
+            <tr>
+                <th scope="row">Aman</th>
+                <td>1116</td>
+                <td>aman@ahom.tech</td>
+                <td>React Developer</td>
+                <td>8874584125</td>
+                <td>13-07-1998</td>
             </tr>
         </tbody>
         </table>
