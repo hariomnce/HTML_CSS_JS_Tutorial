@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
     color: blue;
 }
 
@@ -17,4 +17,41 @@ button {
 
 body {
     background-color: rgb(0, 255, 0);
+    background-color: #ffff00;
+} 
+*/
+
+* {
+    color: blue;
+}
+
+button {
+    color: brown;
+}
+
+#headingOne {
+    color: palevioletred;
+}
+
+#headingTwo {
+    color: blueviolet;
+}
+
+#headingThree {
+    color: cadetblue;
+}
+
+#headingFour {
+    color: chocolate;
+}
+
+#headingFive {
+    color: crimson;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1337232523/photo/high-angle-view-of-a-lake-and-forest.webp?b=1&s=612x612&w=0&k=20&c=ONfRBrp00hOvHvA1_gJxompbAZj9adJjShikxUK-UkI=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
