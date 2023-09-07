@@ -41,12 +41,8 @@ button {
     color: cadetblue;
 }
 
-#headingFour {
-    color: chocolate;
-}
-
-#headingFive {
-    color: crimson;
+.myClass {
+    color: magenta;
 }
 
 body {
